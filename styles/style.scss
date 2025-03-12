@@ -6,11 +6,17 @@
     box-sizing: border-box;
     font-family: "Cormorant", serif;
 }
+.background {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #1d2e41;
+}
 
 .main {
     width: 800px;
     margin: 0 auto;
     border: 1px solid #f4f4f4;
+    background-color: white;
 }
 
 .top-bar {
@@ -148,7 +154,7 @@ a {
 
 .product-box {
     display: flex;
-    margin: 20px 20px;
+    padding: 20px 20px;
     justify-content: space-between;
     border: 1px solid #e2e0e0;
     padding: 15px;
@@ -172,6 +178,7 @@ a {
     color: #3479ab;
     font-size: 18px;
     margin:20px;
+    
 }
 
 // product review
@@ -205,4 +212,35 @@ a {
         font-weight: bold;
         font-size: 20px;
     }
+}
+
+// clints 
+.clients {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    > img {
+        width: 100px;
+        height: 30px;
+    }
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #394b58;
+    padding: 40px 20px;
+    color: #e2e0e0;
+    > div {
+        > img {
+            padding-bottom: 10px;
+        }
+    }
+    }
+
+.social-icons {
+    text-align: end;
+    padding-bottom: 10px;
 }
