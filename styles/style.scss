@@ -145,3 +145,64 @@ a {
         font-size: 18px;
     }
 }
+
+.product-box {
+    display: flex;
+    margin: 20px 20px;
+    justify-content: space-between;
+    border: 1px solid #e2e0e0;
+    padding: 15px;
+    > div {
+        border-right: 1px solid #e2e0e0;
+        padding: 10px 10px;
+        > img {
+            width: 90px;
+            height: 75px;
+            // display: none;
+        }
+        > h3 {
+            font-size: 18px;
+            padding: 10px 0;
+        }
+    }
+    
+}
+
+.browse {
+    color: #3479ab;
+    font-size: 18px;
+    margin:20px;
+}
+
+// product review
+.review {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 40px 20px;
+}
+
+.review-left {
+    border: 1px solid #e2e0e0;
+    padding: 6px;
+    > img {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+.review-right {
+    > h2 {
+        font-size: 28px;
+        color: black;
+    }
+    > p {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+    > a {
+        color: #3479ab;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
